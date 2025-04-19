@@ -151,3 +151,12 @@ footer {
   opacity: 1;
   transform: translateY(0);
 }
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%; /* makes it a circle */
+  object-fit: cover;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 1rem;
+}
