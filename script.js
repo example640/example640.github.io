@@ -25,10 +25,12 @@ function reveal() {
     });
 }
 
-// Toggle Navbar on Mobile View (Optional)
+// Navbar Toggle for Mobile View (Optional)
 const navbarToggle = document.querySelector('.navbar-toggle');
 const navbarMenu = document.querySelector('.nav-links');
 
-navbarToggle.addEventListener('click', () => {
-    navbarMenu.classList.toggle('active');
-});
+if (navbarToggle) {
+    navbarToggle.addEventListener('click', () => {
+        navbarMenu.classList.toggle('active');
+    });
+}
